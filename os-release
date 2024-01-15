@@ -1,0 +1,10 @@
+NAME="Pluto OS"
+PRETTY_NAME="Pluto OS"
+ID=pluto
+BUILD_ID=rolling
+HOME_URL="https://pluto.77z.dev/"
+DOCUMENTATION_URL="https://pluto.77z.dev/docs/"
+SUPPORT_URL="https://pluto.77z.dev/help"
+BUG_REPORT_URL="https://pluto.77z.dev/bugs"
+PRIVACY_POLICY_URL="https://pluto.77z.dev/terms"
+LOGO=pluto-logo
