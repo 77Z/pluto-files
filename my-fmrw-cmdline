@@ -1,0 +1,1 @@
+root=UUID=f89d4c25-1963-40a1-a92f-6091362ca396 rw initrd=\intel-ucode.img initrd=\initramfs-linux.img quiet loglevel=3 splash video=eDP-1:2256x1505@59.94 vt.global_cursor_default=0 "acpi_osi=!Windows 2020"
