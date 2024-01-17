@@ -1,0 +1,5 @@
+set ORDER="A B"
+set A_OK=1
+set B_OK=1
+set A_TRY=0
+set B_TRY=1
