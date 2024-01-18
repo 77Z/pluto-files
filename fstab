@@ -2,7 +2,8 @@
 # Static information about the filesystem
 
 #LABEL=rootA       /         ext4        rw,relatime     0 1
-LABEL=PBOOT       /boot     vfat        rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed    0 2
+#LABEL=PBOOT       /efimnt     vfat        rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed    0 2
+
 LABEL=usrdata     /home     ext4        rw,relatime     0 2
-overlay           /etc      overlay     noauto,x-systemd.automount,lowerdir=/etc,upperdir=/home/.pluto/etcOver/upper,workdir=/home/.pluto/etcOver/work 0 0
+# overlay           /etc      overlay     noauto,x-systemd.automount,lowerdir=/etc,upperdir=/home/.pluto/etcOver/upper,workdir=/home/.pluto/etcOver/work 0 0
 /home/.pluto/flatpak    /var/lib/flatpak        none    bind,rw
